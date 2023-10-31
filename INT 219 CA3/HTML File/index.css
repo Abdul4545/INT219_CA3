@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background-color: lavender;
+}
+.navbar {
+    background-color: #db6930;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+
+}
+
+.fa-cart-shopping {
+    margin: 70% 50%;
+}
+
+.container1 {
+    width: 99vw;
+    background-color: #db6930;
+}
+
+.container1 > h1{
+    font-size: 5vh;
+}
+
+.imagecontainer{
+    width: 99vw;
+    height: 80vh;
+    background-image: url(Images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+    margin-top: 2px;
+}
+
+.para1, .heading2 {
+    text-align: center;
+    color: white;
+}
+
+.para1 {
+    padding-top: 30vh;
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.heading2 {
+    font-style: italic;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+
+.veg-starter, .veg-main-course, .non-veg-starter, .non-veg-main-course, .drinks-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.footer-container {
+    /* width: 84%; */
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: 20%;
+}
+
+
+
+
+
+
+
+
